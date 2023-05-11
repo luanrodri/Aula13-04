@@ -1,7 +1,10 @@
 <h1>Seja Bem Vindo ao Curso Angular</h1>
 <h5 class="card-title">
-  {{ nome produto | uppercase }}
+  {{ nomeProduto | uppercase }}
 </h5>
+<a href="#" class="btn btn-primary float-right"> {{ precoProduto | currency:'BRL' :'symbol'}}</a>
+<p class = "card-text"> Identificação: {{idProduto | number: '2.0-0'}} <br>
+Validade : {{dataValidade | date : 'shortDate'}}</p>
 
 <div class="row">
 <div class="col">
