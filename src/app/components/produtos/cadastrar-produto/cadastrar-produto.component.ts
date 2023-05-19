@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./cadastrar-produto.component.css']
 })
 export class CadastrarProdutoComponent {
+  nome:string = '';
+  validade:string = '';
+  preco:number = 0;
+
+  salvarProduto(): void{
+    console.log('Nome: ', this.nome);
+    console.log('Validade', this.validade);
+    console.log('Preço', this.preco);
+    alert('Salvo com sucesso!');
+  }
 
 }
