@@ -11,7 +11,7 @@ export class HomeComponent {
   idProduto: number = 3;
   precoProduto: number = 2.51;
   promocao: boolean = true;
-  foto: string = 'assets/img/crud.png';
+  foto: string = '../../../assets/img/crud.png';
   dataValidade = '2021-12-31';
 
 
